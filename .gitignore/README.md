@@ -1,6 +1,5 @@
 # Kalissistant
- All the useful modules of Kali Linux Tanks are installed.
- 
+All the useful modules of Kali Linux Tanks are installed
 
 In the Kalissistant script, the following tools will be installed directly on Kali Linux version 2018.2 without problems.
 
