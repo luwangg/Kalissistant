@@ -19,7 +19,7 @@ except ImportError:
 os.system("service tor start")
 
 def cls():
-    linux = 'clear'
+    linux = 'reset'
     windows = 'cls'
     os.system([linux, windows][os.name == 'nt'])
 
