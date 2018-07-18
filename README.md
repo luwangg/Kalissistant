@@ -1,6 +1,12 @@
 [Contribution guidelines for this project](docs/CONTRIBUTING.md)
 # Kalissistant v2.0
 In the Kalissistant script, the following tools will be installed directly on Kali Linux version 2018 without problems.
+
+Home Page Script
+![alt text][logo]
+
+[logo]: https://github.com/unk9vvn/Kalissistant/raw/master/Kalissistant.png "Logo Title Text 2"
+
 # Tools
 
 - Powershell          - Osrframework        - KatanaFramework
@@ -49,16 +55,22 @@ In the Kalissistant script, the following tools will be installed directly on Ka
 - TheFatRat           - Image_Injector      - Kerio-Client
 - wafpass             - Dymerge             - Memcrashed-DDoS-Exploit
 - Mitmf               - Impacket            - malicious-wordpress-plugin
-- ARDT                - WPForce
-
-
-
-
-
-
+- ARDT                - WPForce             - objection
+- amber               - Bad-Pdf             - Log-killer
+- PasteZort           - peanuts             - peda
+- Potato              - venom               - XSStrike
+- XXEinjector         - SIET                - SigPloit
+- Tor2web             - udp-proto-scanner   - srsLTE
+- SpookFlare          - SocialFish          - Phantom-Evasion
+- ntdsxtract          - mona                - LNKUp
+- IMSI-catcher        - HLR-Lookups         - Hibernate-Injection-Study
+- EggShell            - fetch-some-proxies  - EvilURL
+- fsociety            - DAVOSET             - DKMC
+- dirsearch           - CHAOS
 
 
 This script is the first version and will be more complete in future versions
+his script will download and install all the tools needed by a penetration tester, and after you run this script, you can simply use the tools, the tools available for installation are worked out and researched, and in their best, this script is only for The convenience of the cyber community is provided.
 
 # How to install
 ```
