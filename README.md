@@ -73,6 +73,8 @@ In the Kalissistant script, the following tools will be installed directly on Ka
 This script is the first version and will be more complete in future versions
 his script will download and install all the tools needed by a penetration tester, and after you run this script, you can simply use the tools, the tools available for installation are worked out and researched, and in their best, this script is only for The convenience of the cyber community is provided.
 
+- All external tools are stored at this address /root/Documents/Exploits
+
 # How to install
 ```
 # git clone https://github.com/unk9vvn/Kalissistant.git
