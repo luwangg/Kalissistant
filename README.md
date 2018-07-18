@@ -1,8 +1,9 @@
-[Contribution guidelines for this project](docs/CONTRIBUTING.md)
 # Kalissistant v2.0
 In the Kalissistant script, the following tools will be installed directly on Kali Linux version 2018 without problems.
 
-Home Page Script
+
+# Screenshot...
+
 ![alt text][logo]
 
 [logo]: https://github.com/unk9vvn/Kalissistant/raw/master/Kalissistant.png "Logo Title Text 2"
@@ -79,7 +80,4 @@ his script will download and install all the tools needed by a penetration teste
 # python Kalissistant.py
 ```
 
-
-
-
-
+#Channel: https://t.me/Unk9vvN
