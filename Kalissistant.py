@@ -16,7 +16,7 @@ except ImportError:
     os.system("pip install colorama")
     sys.exit()
 
-os.system("service tor start")
+os.system("apt-get install -y tor && service tor start")
 
 def cls():
     linux = 'reset'
