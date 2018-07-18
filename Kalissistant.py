@@ -62,7 +62,7 @@ def print_logo():
                             `.:/+++ooo+ooooo+:`                     
                                   Unk9vvN
                             https://t.me/Unk9vvN
-                              Kalissistant-v2
+                             Kalissistant-v2.0
 """
     for N, line in enumerate(x.split("\n")):
         sys.stdout.write("\x1b[1;%dm%s%s\n" % (random.choice(colors), line, clear))
@@ -97,7 +97,8 @@ if menu == "2":
           "Etherape dkms Virtualbox Cmatrix Osrframework Virtualbox Shellter\n\t"
           "Xplico Remmina RAR Sublist3r Ffmpeg Libreoffice Wifiphisher Steghide\n\t"
           "Dnsmasq Slowhttptest Routersploit Inspy Bleachbit Alacarte ADB\n\t"
-          "Mitmf Xplico Unicorn Osrframework OpenVAS\n\t")
+          "Mitmf Xplico Unicorn Osrframework OpenVAS gopher tcpreplay pptpd\n\t"
+          "network-manager-openvpn-gnome parallel golang upx-ucl gifsicle\n\t")
 
     os.system("apt-get install -y veil veil-evasion && apt-get install -y powershell exiftool && apt-get install -y tor tcpxtract tesseract-ocr jd-gui rarcrack steghide cupp websploit slowhttptest dnsmasq golang upx-ucl gifsicle adb bettercap mitmf shellter parallel remmina alacarte bleachbit haproxy vlc php-gd uget aria2 smb4k crackle pptpd cppcheck gimp xplico openvas isc-dhcp-server lighttpd php-cgi routersploit python-setuptools ftp build-essential unicorn wifiphisher cmatrix ffmpeg libreoffice nbtscan-unixwiz inspy sublist3r freerdp2-x11 rar tcpflow torsocks tcpreplay osrframework gopher qbittorrent zmap lynx tor-geoipdb privoxy hackrf python-dev python-setuptools libpcap0.8-dev libnetfilter-queue-dev libssl-dev libjpeg-dev libxml2-dev libxslt1-dev libcapstone3 libcapstone-dev libffi-dev pandoc network-manager-openvpn-gnome bluetooth libbluetooth-dev gconf-service gconf2-common bridge-utils apt-transport-https multiarch-support libc++1 libc++abi1 libgconf-2-4 etherape dkms virtualbox && wget https://github.com/unk9vvn/Kalissistant/raw/master/vlc -o /usr/bin/vlc && chmod +x /usr/bin/vlc && cp /root/vlc /usr/bin/vlc && chmod +x /usr/bin/vlc && rm /root/vlc && cd ~/Kalissistant && rm v* && wget https://github.com/unk9vvn/Kalissistant/raw/master/vlc && chmod +x *")
 
@@ -145,14 +146,18 @@ if menu == "3":
           "HTTPoxyScan RCE-Finder TBDEx DotDotpwn JexBoss D0xk1t Wig Infoga\n\t"
           "D-TECT OWASP-Nettacker ssct Scanless a2sv ReconDog Belati RED_HAWK\n\t"
           "tweets_analyzer Trape airgeddon wifiphisher WiFi-Pumpkin WPSpin\n\t"
-          "Radamsa Seths slkill Xerosploit Passgen Wifresti Peanuts AtEar\n\t"
+          "Radamsa Seths slkill Xerosploit Passgen Wifresti Peanuts AtEar amber\n\t"
           "BlueBorne firmware-analysis-toolkit firmware-mod-kit firmwalker\n\t"
-          "Unicorn DirtyCow-Exploit Empire Potato windows-privesc-check\n\t"
+          "Unicorn DirtyCow-Exploit Empire Potato windows-privesc-check Bad-Pdf\n\t"
           "mimipenguin NetRipper BITSInject Weeman sAINT Pazuzu CredSniper\n\t"
-          "Meterpreter_Paranoid_Mode-SSL FakeImageExploiter WAFNinja\n\t"
-          "Pyinstaller TheFatRat Image_Injector Kerio-Client wafpass \n\t"
-          "Dymerge Memcrashed-DDoS-Exploit MitmfFakeImageExploiter\n\t"
-          "Impacket malicious-wordpress-plugin ARDT WPForce\n\t")
+          "Meterpreter_Paranoid_Mode-SSL FakeImageExploiter WAFNinja DKMC\n\t"
+          "Pyinstaller TheFatRat Image_Injector Kerio-Client wafpass dirsearch \n\t"
+          "Dymerge Memcrashed-DDoS-Exploit MitmfFakeImageExploiter DAVOSET\n\t"
+          "EvilURL fetch-some-proxies EggShell Hibernate-Injection-Study LNKUp\n\t"
+          "IMSI-catcher HLR-Lookups mona ntdsxtract Phantom-Evasion SocialFish\n\t"
+          "SpookFlare srsLTE udp-proto-scanner Tor2web SigPloit SIET XXEinjector\n\t"
+          "XSStrike venom Potato peda peanuts PasteZort objection Log-killer\n\t"
+          "Impacket malicious-wordpress-plugin ARDT WPForce CHAOS fsociety\n\t")
 
     os.system("mkdir /root/Documents/Exploits && chmod 755 /root/Documents/Exploits")
     os.system("git clone https://github.com/k4m4/dymerge.git /root/Documents/Exploits/dymerge && cd /root/Documents/Exploits/dymerge && chmod 755 *")
@@ -257,6 +262,37 @@ if menu == "3":
     os.system("wget https://gist.githubusercontent.com/MarkBaggett/49aca627205aebaa2be1811511dbc422/raw/06ff006182b254cb379bed005b6423978ed85d00/custom_caesar.py && mv custom_caesar.py /usr/share/sqlmap/tamper/")
     os.system("git clone https://github.com/wafpassproject/wafpass.git /root/Documents/Exploits/bypass_waf && cd /root/Documents/Exploits/bypass_waf && chmod 755 *")
     os.system("git clone https://github.com/khalilbijjou/WAFNinja.git /root/Documents/Exploits/WAFNinja && cd /root/Documents/Exploits/WAFNinja && chmod 755 * && pip install progressbar")
+    os.system("git clone https://github.com/amberframework/amber.git /root/Documents/Exploits/amber && cd /root/Documents/Exploits/amber && chmod 755 * && git checkout stable && make && sudo make install")
+    os.system("git clone https://github.com/deepzec/Bad-Pdf.git /root/Documents/Exploits/Bad-Pdf && cd /root/Documents/Exploits/Bad-Pdf && chmod 755 *")
+    os.system("git clone https://github.com/Rizer0/Log-killer.git /root/Documents/Exploits/Log-killer && cd /root/Documents/Exploits/Log-killer && chmod 755 *")
+    os.system("git clone https://github.com/sensepost/objection.git /root/Documents/Exploits/objection && cd /root/Documents/Exploits/objection && chmod 755 * && pip install -r requirements.txt")
+    os.system("git clone https://github.com/ZettaHack/PasteZort.git /root/Documents/Exploits/PasteZort && cd /root/Documents/Exploits/PasteZort && chmod 755 *")
+    os.system("git clone https://github.com/sensepost/peanuts.git /root/Documents/Exploits/peanuts && cd /root/Documents/Exploits/peanuts && chmod 755 * && pip install argparse datetime gps scapy logging && apt-get install -y python-gps bluetooth bluez python-bluez && service gps start")
+    os.system("git clone https://github.com/longld/peda.git /root/Documents/Exploits/peda && cd /root/Documents/Exploits/peda && chmod 755 * && echo 'source ~/Documents/Exploits/peda/peda.py' >> ~/.gdbinit")
+    os.system("git clone https://github.com/foxglovesec/Potato.git /root/Documents/Exploits/Potato && cd /root/Documents/Exploits/Potato && chmod 755 *")
+    os.system("git clone https://github.com/r00t-3xp10it/venom.git /root/Documents/Exploits/venom && cd /root/Documents/Exploits/venom && chmod 755 *")
+    os.system("git clone https://github.com/s0md3v/XSStrike.git /root/Documents/Exploits/XSStrike && cd /root/Documents/Exploits/XSStrike && chmod 755 * && pip install -r requirements.txt")
+    os.system("git clone https://github.com/enjoiz/XXEinjector.git /root/Documents/Exploits/XXEinjector && cd /root/Documents/Exploits/XXEinjector && chmod 755 *")
+    os.system("git clone https://github.com/Sab0tag3d/SIET.git /root/Documents/Exploits/SIET && cd /root/Documents/Exploits/SIET && chmod 755 *")
+    os.system("git clone https://github.com/SigPloiter/SigPloit.git /root/Documents/Exploits/SigPloit && cd /root/Documents/Exploits/SigPloit && chmod 755 * && pip install -r requirements.txt")
+    os.system("git clone https://github.com/globaleaks/Tor2web.git /root/Documents/Exploits/Tor2web && cd /root/Documents/Exploits/Tor2web && chmod 755 * && pip install -r requirements.txt")
+    os.system("git clone https://github.com/portcullislabs/udp-proto-scanner.git /root/Documents/Exploits/udp-proto-scanner && cd /root/Documents/Exploits/udp-proto-scanner && chmod 755 * && cp udp-proto-scanner.pl udp-proto-scanner.conf /usr/local/bin/")
+    os.system("git clone https://github.com/srsLTE/srsLTE.git /root/Documents/Exploits/srsLTE && cd /root/Documents/Exploits/srsLTE && chmod 755 *")
+    os.system("git clone https://github.com/hlldz/SpookFlare.git /root/Documents/Exploits/SpookFlare && cd /root/Documents/Exploits/SpookFlare && chmod 755 * && pip install -r requirements.txt")
+    os.system("git clone https://github.com/UndeadSec/SocialFish.git /root/Documents/Exploits/SocialFish && cd /root/Documents/Exploits/SocialFish && chmod 755 * && apt-get install python3-pip -y && pip3 install -r requirements.txt")
+    os.system("git clone https://github.com/oddcod3/Phantom-Evasion.git /root/Documents/Exploits/Phantom-Evasion && cd /root/Documents/Exploits/Phantom-Evasion && chmod 755 *")
+    os.system("git clone https://github.com/corelan/mona.git /root/Documents/Exploits/mona && cd /root/Documents/Exploits/mona && chmod 755 *")
+    os.system("git clone https://github.com/Plazmaz/LNKUp.git /root/Documents/Exploits/LNKUp && cd /root/Documents/Exploits/LNKUp && chmod 755 * && pip install -r requirements.txt")
+    os.system("git clone https://github.com/Oros42/IMSI-catcher.git /root/Documents/Exploits/IMSI-catcher && cd /root/Documents/Exploits/IMSI-catcher && chmod 755 * && apt install python-numpy python-scipy python-scapy")
+    os.system("git clone https://github.com/SigPloiter/HLR-Lookups.git /root/Documents/Exploits/HLR-Lookups && cd /root/Documents/Exploits/HLR-Lookups && chmod 755 *")
+    os.system("git clone https://github.com/0ang3el/Hibernate-Injection-Study.git /root/Documents/Exploits/Hibernate-Injection-Study && cd /root/Documents/Exploits/Hibernate-Injection-Study && chmod 755 *")
+    os.system("git clone https://github.com/neoneggplant/EggShell.git /root/Documents/Exploits/EggShell && cd /root/Documents/Exploits/EggShell && chmod 755 *")
+    os.system("git clone https://github.com/stamparm/fetch-some-proxies.git /root/Documents/Exploits/fetch-some-proxies && cd /root/Documents/Exploits/fetch-some-proxies && chmod 755 *")
+    os.system("git clone https://github.com/UndeadSec/EvilURL.git /root/Documents/Exploits/EvilURL && cd /root/Documents/Exploits/EvilURL && chmod 755 *")
+    os.system("git clone https://github.com/Manisso/fsociety.git /root/Documents/Exploits/fsociety && cd /root/Documents/Exploits/fsociety && chmod 755 * && bash <(wget -qO- https://git.io/vAtmB)")
+    os.system("git clone https://github.com/MustLive/DAVOSET.git /root/Documents/Exploits/DAVOSET && cd /root/Documents/Exploits/DAVOSET && chmod 755 *")
+    os.system("git clone https://github.com/Mr-Un1k0d3r/DKMC.git /root/Documents/Exploits/DKMC && cd /root/Documents/Exploits/DKMC && chmod 755 *")
+    os.system("git clone https://github.com/tiagorlampert/CHAOS.git /root/Documents/Exploits/CHAOS && cd /root/Documents/Exploits/CHAOS && chmod 755 * && apt install golang xterm git upx-ucl -y && go get github.com/kbinani/screenshot && go get github.com/lxn/win && go install github.com/kbinani/screenshot && go install github.com/lxn/win")
 
     # Kerio-client
     kde = raw_input("\t\n[*] Install Kerio-client?(y/N): ")
