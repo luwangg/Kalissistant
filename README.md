@@ -81,5 +81,3 @@ his script will download and install all the tools needed by a penetration teste
 # cd Kalissistant && chmod 755 *
 # python Kalissistant.py
 ```
-
-# Channel: https://t.me/Unk9vvN
