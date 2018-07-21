@@ -6,7 +6,7 @@ In the Kalissistant script, the following tools will be installed directly on Ka
 
 ![alt text][logo]
 
-[logo]: https://github.com/unk9vvn/Kalissistant/raw/master/Kalissistant.png "Logo Title Text 2"
+[logo]: https://github.com/unk9vvn/Kalissistant/raw/master/icon.png "Logo Title Text 2"
 
 # Tools
 
@@ -75,7 +75,7 @@ his script will download and install all the tools needed by a penetration teste
 
 - All external tools are stored at this address /root/Documents/Exploits
 
-# How to install
+# How to Run
 ```
 # git clone https://github.com/unk9vvn/Kalissistant.git
 # cd Kalissistant && chmod 755 *
