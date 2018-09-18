@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-# @a9v8i
+# https://t.me/unk9vvn
+# AVI
 import sys, os, time, random
 
 try:
